@@ -7,6 +7,7 @@ workflows:
       vars:
           XCODE_PROJECT: "MyGames/MyGames.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "MyGames" # Isikan nama scheme project Anda.
+          XCODE_WORKSPACE: "MyGames/Modularization.xcworkspace"
     scripts:
       - name: Run tests
         script: |
